@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".changepass">
+    <TextView
+        android:text="Send Email:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:hint="Username"
+        android:textColor="#333"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdate"
+        android:hint="BrithDate"
+        android:textColor="#333"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <TextView
+        android:text="fan007@auceonline.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/to"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/issue"
+        android:hint="put your ID"
+        android:textColor="#333"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/send"
+        android:text="Send"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:onClick="OnSend"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

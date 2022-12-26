@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".about">
+    <TextView
+        android:text="An election is a formal group decision-making process by which a population chooses an individual or multiple individuals to hold public office. This app is a voting app that has three types election Organization, Municipalities, Parliamentary.
+It makes voting easy for the people to vote this can do in few steps:
+(Notes:
+Your ID is the ID on your personal identification.
+If you are in an Organization, your ID is the ID in the verification card of your Organization.
+)
+Step one: get user and password
+Click on the menu in the right of the screen picture 1  it will show you three options click on check picture 2    it will show you to enter your ID, birthdate, and click on show picture 3   it will show your username and password picture 4.
+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/check5"
+        />
+    <TextView
+        android:text="Step2: login
+Login the first page picture 1  put the user name and password that you get form check, picture 2  click on the login picture 2  the second page will open Type of your election picture 3.
+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login4"
+        />
+    <TextView
+        android:text="Step3: choose your election type
+
+Choose your election type by click the button picture1  it will show the candidate of your city picture 2 check your candidate in the check box and click vote picture3  when you end a message will appear picture4
+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/type5"
+        />
+
+
+
+</LinearLayout>
+</ScrollView>

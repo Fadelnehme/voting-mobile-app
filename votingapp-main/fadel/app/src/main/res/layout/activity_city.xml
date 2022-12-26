@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".City">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDC"
+        android:hint="ID"
+        android:textColor="#333"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gov"
+        android:hint="Governorate"
+        android:textColor="#333"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityn"
+        android:hint="Cityname"
+        android:textColor="#333"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numer"
+        android:hint="Number of Member"
+        android:textColor="#333"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:text="Add"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="add"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/upd"
+        android:text="Update"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="update"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delet"
+        android:text="Delete"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="delete"/>
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sh"
+        android:text="Show"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="show"/>
+
+
+</LinearLayout>
+</ScrollView>
